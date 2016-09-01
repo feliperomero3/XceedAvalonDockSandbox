@@ -34,6 +34,10 @@
                              BorderBrush="Black"
                              BorderThickness="1">
 
+            <xcad:DockingManager.Theme>
+                <xcad:AeroTheme />
+            </xcad:DockingManager.Theme>
+
             <xcad:DockingManager.DocumentHeaderTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
